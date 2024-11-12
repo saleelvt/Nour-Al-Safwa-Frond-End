@@ -1,7 +1,7 @@
 
 
-export interface LoginInterfaces {
-    email:string;
-    password:string;
-    
+export interface IAdminLogin{
+    email:string|null;
+    password?:string|null;
+    role?:string;
 }

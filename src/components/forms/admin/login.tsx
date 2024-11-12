@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useFormik } from "formik";
 import { ValidationLogin } from "../../../validation/admin/adminLogin";
-import { LoginInterfaces } from "../../../interfaces/admin/login";
+import { LoginInterfaces } from "../../../interfaces/admin/IAdminLogin";
 
 
 export const AdminLogin = React.memo(() => {
